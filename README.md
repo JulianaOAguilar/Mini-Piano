@@ -25,8 +25,6 @@
   
   <h2>Como Usar:</h2>
     <ol>
-        <li> Clique no link:"" para acessá-lo em seu navegador! </li>
-      <h3> Ou... </h3>
         <li>Clone o repositório ou baixe os arquivos;</li>
         <li>Abra o arquivo <code>index.html</code> no seu navegador;</li>
         <li>E aproveite para testar!;</li>
