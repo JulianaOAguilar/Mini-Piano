@@ -28,6 +28,7 @@
         <li>Clone o repositório ou baixe os arquivos;</li>
         <li>Abra o arquivo <code>index.html</code> no seu navegador;</li>
         <li>E aproveite para testar!;</li>
+        <p> ps: o link do vercel ainda não funciona, então recomendo seguir esses passos KKKKKKK </p>
     </ol>
 
   <h2>Funcionalidades Futuras:</h2>
