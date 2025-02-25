@@ -15,7 +15,8 @@ document.getElementById("colorPiano").onclick = function() {
 
     document.getElementById("pianoBackground").style.backgroundColor = color;
   };
-  
+
+c = "4"
 
 let sustainTime = "15n";
 

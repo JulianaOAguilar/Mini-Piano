@@ -1,0 +1,137 @@
+/* 🔹 Estilos Gerais */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.piano-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    width: 90%;
+    max-width: 500px;
+}
+
+/* 🔹 Base do Piano */
+.piano-base {
+    background-color: blue;
+    padding: 10px;
+    border-radius: 3px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+
+}
+
+/* 🔹 Teclas Brancas */
+.white-keys {
+    display: flex;
+    gap: 5px;  /* 🔹 Espaçamento fixo */
+}
+
+.white-key {
+    width: 60px;  /* 🔹 Tamanho fixo */
+    height: 140px;
+    background-color: white;
+    border-radius: 5px;
+}
+
+.black-keys {
+    display: flex;
+    gap: 35px; 
+    position: absolute;
+    top: 1;
+}
+
+.black-key {
+    width: 30px;
+    height: 80px;
+    background-color: black;
+    border-radius: 3px;
+}
+
+/* 🔹 Botões */
+.buttons {
+    display: flex;
+    gap: 8px;
+}
+
+.control-button {
+    width: 120px;
+    height: 40px;
+    border-radius: 5px;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.control-button.pink {
+    background-color: pink;
+}
+
+.control-button:not(.pink) {
+    background-color: lightsteelblue;
+}
+
+/* 🔸 Para tablets */
+@media screen and (max-width: 991px) {
+    .black-keys {
+        gap: 30px;
+    }
+    .white-key {
+        width: 55px;
+        height: 130px;
+    }
+    .black-key {
+        width: 28px;
+        height: 75px;
+    }
+}
+
+/* 🔸 Para celulares */
+@media screen and (max-width: 767px) {
+
+
+    .black-keys {
+        gap: 30px;
+    }
+
+    .white-key {
+        width: 45px;
+        height: 120px;
+    }
+
+    .black-key {
+        width: 25px;
+        height: 70px;
+    }
+}
+@media screen and (max-width: 400px) {
+    .piano-container {
+        width: 95%;
+    }
+
+    .black-keys {
+        gap: 25px;
+    }
+
+    .white-key {
+        width: 40px;
+        height: 100px;
+    }
+
+    .black-key {
+        width: 20px;
+        height: 60px;
+    }
+
+    .control-button {
+        width: 80px;
+        height: 30px;
+    }
+}
