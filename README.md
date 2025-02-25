@@ -6,6 +6,7 @@
         <li><strong>Notas de C4 a B4</strong>: 7 teclas brancas e 5 teclas pretas, representando uma oitava de um piano; </li>
         <li><strong>Alternância de cor</strong>: O fundo do teclado pode ser alternado entre as cores <strong>azul</strong> e <strong>rosa</strong>;</li>
         <li><strong>botão de sustain</strong>: Simula um pedal de sustain, que quando pressionado, estende o tempo em que a nota toca. </li>
+        <li><strong>Caráter responsivo: </strong> Funciona em diferentes tamanhos de tela! (caso use no celular, recomendo usa-lo com a tela na horizontal) </li>
     </ul>
 
   <h2>Tecnologias Usadas:</h2>
@@ -34,5 +35,4 @@
   <h2>Funcionalidades Futuras:</h2>
 <ul>
     <li><strong>Alternar entre oitavas:</strong> Permitirá ao usuário alternar entre diferentes oitavas de notas, expandindo o alcance do piano virtual.</li>
-    <li><strong>Melhorias na Responsividade:</strong> O teclado será ainda mais adaptado para dispositivos móveis, com teclas ajustáveis para diferentes tamanhos de tela.</li>
 </ul>
