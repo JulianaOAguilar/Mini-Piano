@@ -31,8 +31,3 @@
         <li>E aproveite para testar!;</li>
         <p> ps: o link do vercel ainda não funciona, então recomendo seguir esses passos KKKKKKK </p>
     </ol>
-
-  <h2>Funcionalidades Futuras:</h2>
-<ul>
-    <li><strong>Alternar entre oitavas:</strong> Permitirá ao usuário alternar entre diferentes oitavas de notas, expandindo o alcance do piano virtual.</li>
-</ul>
